@@ -51,8 +51,9 @@
     manager.responseSerializer = [AFJSONResponseSerializer serializer];
     manager.requestSerializer = [AFJSONRequestSerializer serializer];
     [manager.requestSerializer setValue:[NSString stringWithFormat:@"Bearer %@", [defaults objectForKey:BEARER_KEY]] forHTTPHeaderField:@"Authorization"];
+    NSString * searchedString = [searchBar.text stringByReplacingOccurrencesOfString:@" " withString:@"%20"];
     
-    [manager GET:[NSString stringWithFormat:@"https://api.twitter.com/1.1/search/tweets.json?q=%@&count=25",searchBar.text] parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    [manager GET:[NSString stringWithFormat:@"https://api.twitter.com/1.1/search/tweets.json?q=%@&count=25",searchedString] parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
         NSLog(@"JSON: %@", responseObject);
         
         NSArray * responseArray = [responseObject objectForKey:@"statuses"];

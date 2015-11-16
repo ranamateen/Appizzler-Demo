@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5105AB3F-B37E-45E1-9994-4D667B1E5446</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AppizzlerDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>15047808601F6F33403505A124DE5DDFEBBEFAB5</key>
+		<string>https://github.com/ranamateen/Appizzler-Demo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AppizzlerDemo.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>15047808601F6F33403505A124DE5DDFEBBEFAB5</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ranamateen/Appizzler-Demo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>15047808601F6F33403505A124DE5DDFEBBEFAB5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>15047808601F6F33403505A124DE5DDFEBBEFAB5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Appizzler-Demo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
